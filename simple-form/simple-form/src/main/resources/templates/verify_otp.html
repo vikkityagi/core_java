@@ -9,15 +9,18 @@
 </head>
 <body>
 <div class="form">
-    <form method="post" action="" th:action="@{/send-otp}">
-        <h2>Forgot password</h2>
+    <div class="alert alert-success" role="alert">
+        We have Successfully Recieved the otp
+    </div>
+    <form method="post" action="" >
+        <h2>OTP</h2>
         <div class="input-box">
             <i class="fa fa-user" aria-hidden="true"></i>
-            <input type="email" name="email" placeholder="Email" class="form-control" />
+            <input type="text" name="otp" placeholder="Enter otp Here" class="form-control" />
         </div>
-    <div>
-        <button  class="btn btn-warning btn-lg">Send OTP</button>
-    </div>
+        <div>
+            <button  class="btn btn-success btn-lg">Submit</button>
+        </div>
     </form>
 </div>
 
