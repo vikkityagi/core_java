@@ -1,5 +1,4 @@
 package com.simpleform.service;
-
 import com.simpleform.model.UsersModel;
 import com.simpleform.repository.UsersRepository;
 import org.springframework.stereotype.Service;
