@@ -6,13 +6,13 @@ public class Main1 {
         CalcMethod calcmethod=new Calculator();
 
         System.out.println("Enter the first number:");
-        float no1=sc.nextInt();
+        float no1=sc.nextFloat();
 
-        System.out.println("Enter which operation do you want to perform");
+        System.out.println("Enter which operation do you want to perform(+,-,*,/)");
         char c=sc.next().charAt(0);
 
         System.out.println("Enter the iind number:");
-        float no2=sc.nextInt();
+        float no2=sc.nextFloat();
 
         switch (c){
             case '+':
